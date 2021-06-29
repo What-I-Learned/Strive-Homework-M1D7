@@ -11,6 +11,8 @@
         font-family: "Courier New", Courier, monospace;
         font-weight: normal;
         line-height: 1.45;
+        padding: 5px;
+        position: relative;
       }
       .table-link {
         text-align: center;
@@ -21,10 +23,28 @@
       .hidden {
         visibility: hidden;
       }
+      .header {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 200%;
+      }
+      .header h1 {
+        margin-top: 80px;
+        margin-bottom: 80px;
+      }
+      nav button {
+        padding: 10px;
+        background-color: rgb(241, 218, 154);
+        border-color: rgb(24, 24, 24);
+        border-radius: 3px;
+      }
+      nav button:hover {
+        background-color: rgb(154, 211, 211);
+      }
     </style>
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Smartophonia</h1>
       <nav>
         <button onclick="changeH1()">Change H1</button>
@@ -277,7 +297,6 @@
           function changePageBackground(){
               let body = document.querySelector("body")
               body.style.background = 'rgba(253,249,243,1)'
-              body.style.padding ='5px'
           }
           //changePageBackground()
           function changeAdress(){
