@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Smarthphone Shop Website</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        font-weight: normal;
+        line-height: 1.45;
+      }
+      .table-link {
+        text-align: center;
+        letter-spacing: 1px;
+        color: #161616;
+        text-decoration: none;
+      }
+      .hidden {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Smartophonia</h1>
+      <nav>
+        <button onclick="changeH1()">Change H1</button>
+        <button onclick="changePageBackground()">
+          Change background Color
+        </button>
+        <button onclick="changeAdress()">Change Adress</button>
+        <button onclick="addCssClass()">Add a class</button>
+        <button onclick="imageVisibility()">Toggle visibility</button>
+        <button onclick="colorPrice()">Color Prices</button>
+      </nav>
+    </header>
+    <section>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="https://dustinimages.azureedge.net/image/d200001264496/500/500/samsung-galaxy-s21-5g-256gb-dual-sim-fantomviolet.jpg"
+              alt=""
+              height="100"
+              width="100"
+            />
+          </td>
+          <td>Samsung Galaxy S21 5G</td>
+          <td>
+            <p>
+              Life is a series of moments. Why not make them beautiful? Take
+              your photos and videos to an incredible new level with multiple,
+              cutting-edge ways to capture life exactly as it is, or turn it
+              into a work of art. With a sleek, new design, hyperfast processing
+              and a battery that won't give out on you when you need it most,
+              Samsung Galaxy S21 smart phone lets you get creative, stay
+              connected and do it all your way. We know your life moves fast,
+              and there’s a fine line between what makes a moment ordinary and
+              what makes it extraordinary. That’s why we created S21. With the
+              ability to record in 8K, your videos aren’t just cinema quality,
+              they’re double the resolution of 4K video. Or use the 64MP camera
+              for still shots that come out clear whether it’s day or night.
+              Better yet, why not do both? Single Take AI transcends the usual
+              restrictions of photo and video editing to capture life’s greatest
+              moments, wherever they happen, in one single take. Galaxy S21,
+              made for the epic in every day. Single Take AI captures images and
+              video up to 15 seconds.
+            </p>
+          </td>
+          <td class="price">600 Eur</td>
+          <td>
+            <a
+              href="https://www.amazon.de/-/en/Samsung-Galaxy-Smartphone-Phantom-Android/dp/B08QXG6Y6F/ref=sr_1_4?dchild=1&keywords=Samsung+Galaxy+S21+5G&qid=1624970982&sr=8-4"
+              target="_blank"
+              >Amazon Link</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfe0ftWuT9hjaEkx-taPkR_O4iqegE-n8AezkwQPrz8EBocp16xv0FPqJ3iOKhx27K6yu52AwJ&usqp=CAc"
+              alt=""
+              height="100"
+              width="100"
+            />
+          </td>
+          <td>Apple Iphone 12 Pro Max</td>
+          <td>
+            <p>
+              The iPhone 12 Pro Max is here and it’s ready for infinitely
+              spectacular possibilities. Experience the speed of 5G to download
+              huge files on the go and stream HDR video.1 View it all on the
+              arguer 6.7” Super Retina XDR display2 with Ceramic Shield
+              featuring 4x better drop performance.3 Take incredible low-light
+              photographs with the best Pro camera system on an iPhone, and 5x
+              optical zoom range. Release your inner-filmmaker with cinema-grade
+              Dolby Vision video recording, editing, and playback. Multitask
+              like a true pro with the powerful A14 Bionic chip. The new MagSafe
+              accessories feature easy attach and offer faster-than-ever
+              wireless charging.4 Get your next phone with no contract and no
+              mystery fees online or at your local Walmart today.
+            </p>
+          </td>
+          <td class="price">1500 Eur</td>
+          <td>
+            <a
+              href="https://www.amazon.de/Apple-iPhone-Pro-Max-256/dp/B08L5TF4D4/ref=sr_1_1_sspa?crid=2FUGFXTQFNBHN&dchild=1&keywords=apple+iphone+12+pro+max&qid=1624971173&sprefix=apple+iphone%2Caps%2C205&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBOUxNVUw5RThCODEmZW5jcnlwdGVkSWQ9QTA1NzI4ODcyRlJNQTIzTURDSTNRJmVuY3J5cHRlZEFkSWQ9QTA3MTE2OTcyUkVDWUYzQ0xWTUROJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+              target="_blank"
+              >Amazon Link</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5lSnwVH0bp0O0VgWfH-C338rFyN4IYuichA&usqp=CAU"
+              alt=""
+              height="100"
+              width="100"
+            />
+          </td>
+          <td>Sony Xperia 10 III</td>
+          <td>
+            <p>
+              Sony Xperia 10 III XQ-BT52 5G Dual 128GB 6GB RAM Factory Unlocked
+              (GSM Only | No CDMA - not Compatible with Verizon/Sprint)
+              International Version - Blue 5G speed, long battery life, and a
+              compact, durable design Enjoy more of what you want on the go with
+              the Xperia 10 III. It combines a powerful, long-life battery with
+              the speed of 5G for fast streaming and downloads. And its premium,
+              hand-fit design is not just comfortable to handle but tough and
+              water-resistant too. So you'll have no worries about using Xperia
+              10 III whenever and wherever you like. Beautiful snapshots made
+              easy with triple lens. Featuring ultra-wide-angle, wide-angle, and
+              telephoto options, the triple lens camera lets you capture a huge
+              variety of shots – from expansive landscapes to expressive
+              portraits. Exceptional audio quality, wireless or wired. The
+              Xperia 10 III offers exceptional sound, whether you are enjoying
+              the ultimate in wireless listening with High-Resolution Audio
+              Wireless or using the 3.5mm audio jack to connect your favorite
+              wired headphones. Along with native High-Resolution Audio
+              playback, the Xperia 10 III also features DSEE Ultimate, which
+              uses AI to upscale all your music close to High-Resolution Audio
+              quality.
+            </p>
+          </td>
+          <td class="price">350 Eur</td>
+          <td>
+            <a
+              href="https://www.amazon.de/Sony-Xperia-III-Smartphone-15-2/dp/B09448RQGB/ref=sr_1_1_sspa?dchild=1&keywords=sony+xperia+10+ii&qid=1624971230&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNzMzTkg4RFJZUUoxJmVuY3J5cHRlZElkPUExMDMwOTMzM0JVUThWVTA5OVpTOSZlbmNyeXB0ZWRBZElkPUEwNjY0MzkzMlRSNzExREM2S0s3OSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+              target="_blank"
+              >Amazon Link</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+              height="100"
+              width="100"
+            />
+          </td>
+          <td>Samsung Galaxy S20 FE</td>
+          <td>
+            <p>
+              This is the phone made for people who want it all. It's packed
+              with features tailor-made for fans on all kinds—whether you love
+              photography, gaming or filling your feed with all that inspires
+              you. This is the phone that leaves compromise behind, delivering
+              the innovations of Galaxy S20 to make incredible technology
+              available to all. Equipped with Galaxy S20 same revolutionary
+              cameras, Galaxy S20 FE lets you snapshot moments your way. Frame
+              up the whole fam with Wide-angle Camera, capture more of the world
+              with Ultra Wide Camera, or get up close and personal with
+              Telephoto Camera. With barely-there bezels and a super small punch
+              hole for the camera, the 6.5" FHD Infinity-O Display lets you dive
+              into gaming, streaming and video calling without anything blocking
+              your view. When you're connected to the network with Galaxy S20
+              FE, you can game on in real time with little lag, download at
+              lightning fast speeds and experience crystal clear video calls.
+              Live your life without worrying where you can plug in your phone.
+              The 4500mAh (typical) battery has the power to outlast your day
+              and the intelligence to save power for the things you do most.
+              With 128GB built in and the ability to store up to 1TB more on a
+              microSD card, you can delete pics and videos because you want to,
+              not because you have to. When your Galaxy S20 FE gets a little
+              wet, there's no need to panic—it's rated IP68 for water and dust
+              resistance and can stand up to 1.5 meters of water for up to 30
+              second. Like a power nap for your phone. Plug in to get more than
+              50% charge in 30 minutes with the 25W Super Fast Charger. You can
+              charge your buds, watch, and even a friend’s phone. Wirelessly
+              connect to your TV to multitask in a whole new way.
+            </p>
+          </td>
+          <td class="price">550 Eur</td>
+          <td>
+            <a
+              href="https://www.amazon.de/-/en/Samsung-Android-Smartphone-Display-Battery/dp/B093TDFCPG/ref=sr_1_3?dchild=1&keywords=Samsung+Galaxy+S20+FE&qid=1624971262&sr=8-3"
+              target="_blank"
+              >Amazon Link</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+              height="100"
+              width="100"
+            />
+          </td>
+          <td>Motorola Moto G100</td>
+          <td>
+            <p>
+              You want to explore more. You got it. Meet moto g10. Capture
+              sharper, brighter photos in any light and from any angle using the
+              48 MP camera system. Then, feel the freedom of going over 2 days
+              on a single charge. Stretch your view: Bring your photos, films,
+              games, and video chats to life on an ultra-wide 6.5” Max Vision
+              HD+ screen. A 20:9 aspect ratio and a bigger screen to body
+              proportion mean nothing gets in the way of your favorite
+              entertainment. Over 2 days of battery: Live your life—without
+              worrying about battery life. The 5000 mAh battery gives you over 2
+              days on a single charge. Stream music for 186 hours, video for 20
+              hours, or browse for 17 hours. Smarter performance. Smarter phone:
+              A Qualcomm Snapdragon octa-core processor boosts performance,
+              enabling faster responses and graphics to render crazy fast. Plus,
+              everyday experiences like taking photos or using Google Assistant
+              feel way more intuitive.
+            </p>
+          </td>
+          <td class="price">500 Eur</td>
+          <td>
+            <a
+              href="https://www.amazon.de/-/en/Motorola-smartphone-display-Available-Everywhere/dp/B08Z45GB1G/ref=sr_1_1?crid=2LDDR9KZNGNNA&dchild=1&keywords=motorola+moto+g100&qid=1624971301&sprefix=Motorola+Moto+G10%2Caps%2C295&sr=8-1"
+              target="_blank"
+              >Amazon Link</a
+            >
+          </td>
+        </tr>
+      </table>
+    </section>
+    <footer>
+      <div>
+        <h3>Write us a message!</h3>
+        <div>
+          <form id="new-user">
+            <input type="text" name="username" placeholder="Username" />
+            <input type="text" name="YourEmail" placeholder="Your Email" />
+            <input type="text" name="Topic" placeholder="Topic" />
+            <input type="text" name="message" placeholder="Message" />
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+      <h3>Smartophonia</h3>
+      <p>
+        Galaxy far far away,<br />
+        Outisde of Milkiway
+      </p>
+    </footer>
+
+    <script lang="text/javascript">
+      function changeH1(){
+          let h1 = document.querySelector("h1")
+          h1.innerText = 'Same Smartophonia but better version of it'
+          h1.style.color = 'rgba(252, 186, 3,1.0)'
+          }
+          //changeH1()
+          function changePageBackground(){
+              let body = document.querySelector("body")
+              body.style.background = 'rgba(253,249,243,1)'
+              body.style.padding ='5px'
+          }
+          //changePageBackground()
+          function changeAdress(){
+              let adress = document.querySelector('footer p')
+              adress.innerHTML = '<p>You have been hacked, <br> hahahahah</p>'
+          }
+          //changeAdress()
+          function addCssClass(){
+            let amzLinks = document.querySelectorAll('section table a')
+                  for(let alink of amzLinks)
+                  alink.classList.add("table-link")
+          }
+          function imageVisibility(){
+              let phoneImages = document.querySelectorAll('section table img')
+              for(let image of phoneImages)
+              image.classList.toggle("hidden")
+          }
+          function generateRndm(){
+              let random = Math.floor(Math.random()*255)
+              return random
+          }
+          function colorPrice(){
+              let prices = document.querySelectorAll('.price')
+              let alpha = Math.floor(Math.random())+0.4
+              for(let price of prices)
+              price.style.color = `rgba(${generateRndm()},${generateRndm()},${generateRndm()},${alpha})`
+          }
+          //colorPrice();
+    </script>
+  </body>
+</html>
